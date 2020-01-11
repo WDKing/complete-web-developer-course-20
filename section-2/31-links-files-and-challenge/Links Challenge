@@ -1,0 +1,30 @@
+Links
+
+INSTRUCTIONS: Update the page to add another link to your favourite news site and also link the anchor tag in the last a href tag back to the BBC link.
+
+<!doctype html>
+<html>
+<head>
+	<title>Links</title>
+</head>
+    <body>
+    	<p><a href="http://bbc.co.uk">BBC Website</a></p>
+    	<p><a href="http://cnn.com">CNN Website</a></p>
+    	<p><a href="#bbc">Back to the first link</a></p>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+<head>
+	<title>Links</title>
+</head>
+    <body>
+    	<p id="bbc"><a href="http://bbc.co.uk">BBC Website</a></p>
+    	<p><a href="http://cnn.com">CNN Website</a></p>
+    	<p><a href="http://www.theonion.com">The Onion</a></p>
+    	<p><a href="#bbc">Back to the first link</a></p>
+    </body>
+</html>
