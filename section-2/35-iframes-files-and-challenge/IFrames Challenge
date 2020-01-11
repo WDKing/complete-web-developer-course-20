@@ -1,0 +1,25 @@
+IFrames
+
+INSTRUCTIONS: Create an IFrame to your favourite website in the below webpage.
+
+<!doctype html>
+<html>
+	<head>
+    	<title>IFrames</title>
+    </head>
+    <body>
+    	
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>IFrames</title>
+    </head>
+    <body>
+    	<iframe href="http://www.wikipedia.com"></iframe>
+    </body>
+</html>
