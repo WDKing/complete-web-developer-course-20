@@ -1,0 +1,20 @@
+Images
+
+INSTRUCTIONS: Add an image to the web page named face.png and set its attributes to 250 pixels high and 150 pixels wide.
+
+<!doctype html>
+<html>
+	<title>Images</title>
+    	<body>
+    	</body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<title>Images</title>
+    	<body>
+    	    <img src="face.png" height="250" width="150">
+    	</body>
+</html>
