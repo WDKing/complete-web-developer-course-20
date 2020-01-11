@@ -1,0 +1,35 @@
+HTML Entities
+
+INSTRUCTIONS: Using the examples at http://www.w3schools.com/html/html_entities.asp, update the prices on the list to add the Pound, Yen and Euro sign to the figures in any order.
+
+<!doctype html>
+<html>
+	<head>
+    	<title>HTML Entities</title>
+    </head>
+    <body>
+    	<p>The cost is:</p>
+        <ul>
+    		<li>9.99</li>
+        	<li>9.99</li>
+        	<li>9.99</li>
+        </ul>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>HTML Entities</title>
+    </head>
+    <body>
+    	<p>The cost is:</p>
+        <ul>
+    		<li>&pound;9.99</li>
+        	<li>&yen;9.99</li>
+        	<li>&euro;9.99</li>
+        </ul>
+    </body>
+</html>
