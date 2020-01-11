@@ -1,0 +1,23 @@
+Paragraph Tags
+
+INSTRUCTIONS: Using the strong, sub and del tags update the paragraphs to incude bold, subscript and deleted text.
+
+<!doctype html>
+<html>
+    <body>
+    	<p>This is some text.</p>
+        <p>This is some more text.</p>
+        <p>This is even more text.</p>
+    </body>
+</html>
+
+
+Answer: 
+<!doctype html>
+<html>
+    <body>
+    	<p>This is some <strong>strong</strong> text.</p>
+        <p>This is some <sub>subscript</sub> text.</p>
+        <p>This is even <del>deleted</del> text.</p>
+    </body>
+</html>
