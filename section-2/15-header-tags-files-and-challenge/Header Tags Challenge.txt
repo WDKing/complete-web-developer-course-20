@@ -1,0 +1,26 @@
+Header Tags
+
+INSTRUCTIONS: Using the h1, h2, and h3 tags create a webpage that has three headers in any order.
+
+<!doctype html>
+<html>
+	<head>
+    </head>
+    <body>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    </head>
+    <body>
+        <h1>Header 1</h1>
+        
+        <h3>Header 3</h3>
+        
+        <h2>Header 2</h2>
+    </body>
+</html>
