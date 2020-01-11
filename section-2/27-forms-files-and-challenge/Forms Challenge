@@ -1,0 +1,46 @@
+1.12 Forms
+
+INSTRUCTIONS: Update the form to include any missing input tags and add blue as an option to the top of the favourite colour choices.
+
+<!doctype html>
+<html>
+    <head>
+	    <title>Forms</title>
+    </head>
+    <body>
+    	<form>
+        	<p>Name: <type ="text"></p>
+           		<p>Age: <input type="number"></p>
+        	<p>Favourite colour:
+            	<select>
+        			<option>red</option>
+            		<option>yellow</option>
+            		<option>green></option>
+             	</select>
+        	</p>
+        </form>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+    <head>
+	    <title>Forms</title>
+    </head>
+    <body>
+    	<form>
+        	<p>Name: <input type ="text"></p>
+           	<p>Age: <input type="number"></p>
+        	<p>Favourite colour:
+            	<select>
+            		<option>blue</option>
+        			<option>red</option>
+            		<option>yellow</option>
+            		<option>green</option>
+             	</select>
+        	</p>
+        </form>
+    </body>
+</html>
