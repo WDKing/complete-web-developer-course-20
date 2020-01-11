@@ -1,0 +1,28 @@
+The Structure of a Webpage
+
+INSTRUCTIONS: Add the missing tags to this basic webpage.
+
+<!doctype html>
+<html>
+    <head>
+    	<title>Webpage title
+    </head>
+    
+    <body>
+    	Header</h1>
+    		<p>Some lovely text about the website</p>
+    </body>
+</html>
+
+Answer:
+<!doctype html>
+<html>
+    <head>
+    	<title>Webpage title</title>
+    </head>
+    
+    <body>
+    	<h1>Header</h1>
+    		<p>Some lovely text about the website</p>
+    </body>
+</html>
