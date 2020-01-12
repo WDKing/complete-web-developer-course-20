@@ -1,0 +1,47 @@
+Colors
+
+INSTRUCTIONS: Using the website from the lecture (http://html-color-codes.info/) update the styling for the paragraphs to the appropriate colour, using HTML colour codes.
+
+<!doctype html>
+<html>
+	<head>
+    	<title>Colors</title>
+        <style type="text/css">   
+			#black {
+            	
+            }
+			#white {
+            	
+            }
+        </style>
+        </head>
+    <body>
+    	<div id="background">
+    		<p id="black">This is a paragraph</p>
+        	<p id="white">This is another paragraph!</p>
+        </div>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>Colors</title>
+        <style type="text/css">   
+			#black {
+            	color:#000000
+            }
+			#white {
+            	color:#FFFFFF
+            }
+        </style>
+        </head>
+    <body>
+    	<div id="background">
+    		<p id="black">This is a paragraph</p>
+        	<p id="white">This is another paragraph!</p>
+        </div>
+    </body>
+</html>
