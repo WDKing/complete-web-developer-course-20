@@ -1,0 +1,30 @@
+Internal CSS
+
+INSTRUCTIONS: Update the webpage from the previous exercise to add the styling as Internal CSS and remove the inline CSS.
+
+<!doctype html>
+<html>
+	<head>
+    	<title>Internal CSS</title>
+    </head>
+    <body>
+    	<p style="color:red;">Hello World</p>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>Internal CSS</title>
+    	<style type="text/css">
+    	    p {
+    	        color:red;   
+    	    }
+    	</style>
+    </head>
+    <body>
+    	<p>Hello World</p>
+    </body>
+</html>
