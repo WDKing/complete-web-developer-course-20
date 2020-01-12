@@ -1,0 +1,35 @@
+Classes And Ids
+
+INSTRUCTIONS: Add internal CSS to the following webpage to make the first paragraph red and the second paragraph blue.
+
+<!doctype html>
+<html>
+	<head>
+		<title>Classes and Ids</title>
+    </head>
+    <body>
+    	<p class="red">This is a paragraph.</p>
+        <p id="blue">This is another paragraph!</p>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+		<title>Classes and Ids</title>
+		<style type="text/css">
+		    .red {
+		        color:red;
+		    }
+		    #blue {
+		        color:blue;
+		    }
+		</style>
+    </head>
+    <body>
+    	<p class="red">This is a paragraph.</p>
+        <p id="blue">This is another paragraph!</p>
+    </body>
+</html>
