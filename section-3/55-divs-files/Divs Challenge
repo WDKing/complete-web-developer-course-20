@@ -1,0 +1,39 @@
+Divs
+
+INSTRUCTIONS: Apply the styling from the div to the header and paragraph tags on the webpage so that all text has the background colour of red.
+
+<!doctype html>
+<html>
+	<head>
+    	<title>Divs</title>
+        <style type="text/css">   
+			#background {
+            	background-color:red;
+            }
+        </style>
+        </head>
+    <body>
+    	<h1>This is a header</h1>
+        <p>This is a paragraph!</p>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>Divs</title>
+        <style type="text/css">   
+			#background {
+            	background-color:red;
+            }
+        </style>
+        </head>
+    <body>
+        <div id="background">
+    	    <h1>This is a header</h1>
+            <p>This is a paragraph!</p>
+        </div>
+    </body>
+</html>
