@@ -1,0 +1,47 @@
+Positioning
+
+INSTRUCTIONS: Update the internal CSS to give the #home div an absolute position of 10 pixels right and 10 pixels down and the #next div a relative position of 50 pixels right and 10 pixels up.
+
+<!doctype html>
+<html>
+	<head>
+    	<title>Positioning</title>
+        <style type="text/css">   
+			#home {
+            
+            }
+			#next {
+            
+          	}
+        </style>
+        </head>
+    <body>
+		<div id="home">Home</div>
+		<div id="next">Next</div>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>Positioning</title>
+        <style type="text/css">   
+			#home {
+                position:absolute;
+                left:10px;
+                top:10px;
+            }
+			#next {
+                position:relative;
+                left:50px;
+                top:-10px;
+          	}
+        </style>
+        </head>
+    <body>
+		<div id="home">Home</div>
+		<div id="next">Next</div>
+    </body>
+</html>
