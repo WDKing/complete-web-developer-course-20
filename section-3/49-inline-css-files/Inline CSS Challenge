@@ -1,0 +1,25 @@
+Inline CSS
+
+INSTRUCTIONS: Add inline CSS to this paragraph to make the text red.
+
+<!doctype html>
+<html>
+	<head>
+    	<title>Inline CSS</title>
+    </head>
+    <body>
+    	<p>Hello World</p>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>Inline CSS</title>
+    </head>
+    <body>
+    	<p style="color:red;">Hello World</p>
+    </body>
+</html>
