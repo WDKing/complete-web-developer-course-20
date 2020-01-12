@@ -1,0 +1,55 @@
+Floats
+
+INSTRUCTIONS: Update the internal CSS to add floats for the relevant id's (eg. #left floating left, #right floating right).
+
+<!doctype html>
+<html>
+	<head>
+    	<title>Floats</title>
+        <style type="text/css">   
+			#left {
+
+            }
+			#right {
+
+            }
+			#underneath {
+
+            }
+        </style>
+        </head>
+    <body>
+    	<div id="background">
+    		<p id="left">This is a paragraph </p>
+        	<p id="right">This is another paragraph.</p>
+            <p id="underneath">This is yet another paragraph!</p>
+        </div>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>Floats</title>
+        <style type="text/css">   
+			#left {
+                float:left;
+            }
+			#right {
+                float:right;
+            }
+			#underneath {
+                clear:both;
+            }
+        </style>
+        </head>
+    <body>
+    	<div id="background">
+    		<p id="left">This is a paragraph </p>
+        	<p id="right">This is another paragraph.</p>
+            <p id="underneath">This is yet another paragraph!</p>
+        </div>
+    </body>
+</html>
