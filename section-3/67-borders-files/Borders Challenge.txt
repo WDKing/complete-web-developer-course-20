@@ -1,0 +1,41 @@
+Borders
+
+INSTRUCTIONS: Style the box div to have a border of 5px (you can choose any border style and colour) and set the circle div to a circle using percentage.
+
+<!doctype html>
+<html>
+	<head>
+    	<title>Borders</title>
+        <style type="text/css">   
+            #box {
+            }
+			#circle {
+            }
+        </style>
+        </head>
+    <body>
+		<div id="box">Box</div>
+        <div id="circle">Circle</div>
+    </body>
+</html>
+
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>Borders</title>
+        <style type="text/css">   
+            #box {
+                border: 5px black solid;
+            }
+			#circle {
+			    border-radius: 50%;
+            }
+        </style>
+        </head>
+    <body>
+		<div id="box">Box</div>
+        <div id="circle">Circle</div>
+    </body>
+</html>
