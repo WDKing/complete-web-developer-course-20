@@ -1,0 +1,306 @@
+<html>
+
+<head>
+	<title>BBC Technology Website Mimic</title>
+
+	<style type="text/css">
+
+		#top-bar {
+			width: 1050px;
+			margin: 0 auto;
+			height: 40px;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Helvetica, Arial, sans-serif;
+		}
+
+		#bbc-logo {
+			margin-top: 8px;
+			margin-right: 8px;
+			width: 100px;
+			float: left;
+		}
+
+		.top-bar-segment {
+			float: left;
+			border-left: 1px #CCCCCC solid;
+			height: 100%;
+		}
+
+		#sign-in-image {
+			width: 25px;
+			margin: 11px 15px;
+			float: left;
+		}
+
+		#sign-in-text {
+			font-weight: bold;
+			font-size: 90%;
+			position: relative;
+			top: 14px;
+			padding-right: 50px;
+		}
+
+		#bell-div {
+			float:left;
+		}
+
+		#indent-line {
+			float: left;
+			height: 40px;
+		}
+
+		#bell {
+			float: left;
+			height: 25px;
+			margin: 9px 8px 0 8px;
+		}
+
+		.top-bar-menu {
+			font-weight: bold;
+			font-size: 90%;
+			padding: 13px 15px 0 15px;
+			height: 27px;
+		}
+
+		#down-arrow {
+			width: 16px;
+			margin-left: 20px;
+		}
+
+		#search-field {
+			background-color: #E4E4E4;
+			border: none;
+			font-weight: bold;
+			font-size: 14px;
+			padding: 5px;
+			margin: 5px 0 5px 5px;
+			float: left;
+		}
+
+		#magnifying-glass {
+			height:26px;
+			margin-top: 5px;
+		}
+
+		.clear {
+			clear: both;
+		}
+
+		#news-bar-container {
+			background-color: #BD160D;
+			width: 100%;
+			height: 70px;
+			border-top: 1px solid #CCCCCC;
+		}
+
+		#news-bar {
+			width: 1000px;
+			margin: auto;
+		}
+
+		h1 {
+			padding: 0;
+			margin: 0;
+			color: white;
+			font-size: 40px;
+			font-weight: normal;
+			padding-top: 10px;
+			float: left;
+		}
+
+		#find-local-news {
+			float: right;
+			border: 1px #884545 solid;
+			width: 250px;
+			padding: 5px 5px 0 10px;
+			margin: 8px 10px 0 0;
+		}
+
+		#find-local-news a {
+			color:white;
+			text-decoration: none;
+			font-size: 30px;
+			position: relative;
+			top: -8px;
+		}
+
+		#find-local-news a:hover {
+			text-decoration: underline;
+		}
+
+		#find-local-news img {
+			height: 40px;
+		}
+
+		#menu-bar-container {
+			background-color: #A91717;
+			width: 100%;
+		}
+
+		#menu-bar {
+			width: 1000px;
+			margin: 0 auto;
+			height: 40px;
+		}
+
+		#menu-bar a {
+			color: white;
+			text-decoration: none;
+			padding: 0 10px;
+			border-right:1px solid #BB4545;
+			font-size: 14px;
+			position: relative;
+			top: 11px;
+		}
+
+		#menu-bar a:hover {
+			text-decoration: underline;
+		}
+
+		.borderless {
+			border: none !important;
+		}
+
+		#more-arrow {
+			height: 15px;
+			position: relative;
+			top: 13px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<div id="top-bar">
+
+		<img id="bbc-logo" src="./images/bbc-blocks-dark.png">
+
+		<div id="sign-in-div" class="top-bar-segment">
+
+			<img id="sign-in-image" src="./images/sign-in-icon.png">
+
+			<span id="sign-in-text">Sign in</span>
+
+		</div>
+
+		<div id="bell-div">
+			
+			<img id="indent-line" src="./images/indent-line.png">
+
+			<img id="bell" src="./images/bell.png">
+
+		</div>
+
+		<div class="top-bar-segment top-bar-menu">
+			
+			News
+
+		</div>
+
+		<div class="top-bar-segment top-bar-menu">
+			
+			Sport
+
+		</div>
+
+		<div class="top-bar-segment top-bar-menu">
+			
+			Weather
+
+		</div>
+
+		<div class="top-bar-segment top-bar-menu">
+			
+			iPlayer
+
+		</div>
+
+		<div class="top-bar-segment top-bar-menu">
+			
+			TV
+
+		</div>
+
+		<div class="top-bar-segment top-bar-menu">
+			
+			More
+
+			<img id="down-arrow" src="./images/down-arrow.png">
+
+		</div>
+
+		<div class="top-bar-segment">
+
+			<input id="search-field" type="text" value="Search">
+
+			<input type="image" id="magnifying-glass" src="./images/magnifying-glass.png">
+
+		</div>
+
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div id="news-bar-container">
+
+		<div id="news-bar">
+
+			<h1>NEWS</h1>
+
+			<div id="find-local-news">
+
+				<a href="">Find local news</a>
+
+				<img src="images/pointer.png">
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div id="menu-bar-container">
+
+		<div id="menu-bar">
+
+			<a href="">Home</h>
+
+			<a href="">UK</a>
+
+			<a href="">World</a>
+			
+			<a href="">Business</a>
+			
+			<a href="">Politics</a>
+			
+			<a href="">Tech</a>
+			
+			<a href="">Science</a>
+			
+			<a href="">Health</a>
+
+			<a href="">Education</a>
+			
+			<a href="">Entertainment & Arts</a>
+			
+			<a href="">Video & Audio</a>
+			
+			<a href="" class="borderless">More</a>
+
+			<img id="more-arrow" src="images/more-arrow.png">
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
