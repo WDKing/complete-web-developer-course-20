@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript - Loops</title>
+</head>
+<body>
+
+	<p id="tweet-display">Tweets:<br /></p>
+
+	<script type="text/javascript">
+
+		/*
+		for (var i = 0; i < 5; i++) {
+			alert(i);
+		}
+
+		for (var j = 3; j < 7; j++) {
+			alert(j);
+		}
+
+		for (var k = 5; k > 0; k--) {
+			alert(k);
+		}
+		*/
+
+		var tweets = ["First tweet", "Second tweet", "Third tweet"];
+		
+		for (var m = 0; m < tweets.length; m++) {
+			document.getElementById("tweet-display").innerHTML += tweets[m] + "<br />";
+		}
+
+	</script>
+
+</body>
+</html>
