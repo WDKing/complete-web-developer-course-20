@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 and CSS3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+</head>
+<body>
+	<form id="firstForm" action="processform.php">
+		<p>Placeholder:<input type="text" placeholder="Insert Name Here"></p>
+		<p>Autofocus: <input type="text" autofocus></p>
+		<p>Autocomplete Off:<input type="text" autocomplete="off"></p>
+		<p>Required:<input type="text" required></p>
+		<p>Email:<input type="email"></p>
+		<p>Pattern:<input type="text" pattern="[0-9]"></p>
+		<datalist id="alphabet">
+			<select>
+				<option value="One">Alpha</option>
+				<option value="Two">Beta</option>
+				<option value="Three">Gamma</option>
+				<option value="Four">Delta</option>
+			</select>
+		</datalist>
+		<p>Autocomplete:<input type="text" list="alphabet"></p>
+		<p>Multiple file upload:<input type="file" multiple></p>
+		<p><input type="submit" value="Submit" formaction="processform2.php" formmethod="post"></p>
+	</form>
+	<p>Code outside form:<input type="text" form="firstForm"></p>
+</body>
+</html>
