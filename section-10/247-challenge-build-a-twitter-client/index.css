@@ -1,0 +1,47 @@
+body {
+	background-image: url(./images/casey-horner-k5wvrWws8MQ-unsplash.jpg) !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+	display: flex;
+}
+
+.contrast-text-color{
+	color: white;
+}
+
+#container, #refresh-tweets-btn  {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#tweet-form {
+	width: 100%
+}
+
+#submit-button {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#popular-tweets {
+	height: auto;
+}
+
+#refresh-tweets-btn {
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#popular-tweets {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.tweet-body {
+	border: 1px black solid;
+	padding: 2px 4px;
+	border-radius: 0.5rem;
+}

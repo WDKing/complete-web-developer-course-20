@@ -1,0 +1,258 @@
+{
+   "created_at":"Tue Aug 18 01:30:34 +0000 2020",
+   "id":1295533513584922600,
+   "id_str":"1295533513584922626",
+   "text":"RT @9NEWSSports: WATCH: In the pages of his notebook @MikeKlis explains how the @Broncos staying safe during the 2020 season is the top pri…",
+   "truncated":false,
+   "entities":{
+      "hashtags":[
+
+      ],
+      "symbols":[
+
+      ],
+      "user_mentions":[
+         {
+            "screen_name":"9NEWSSports",
+            "name":"9NEWS Sports Denver",
+            "id":52858611,
+            "id_str":"52858611",
+            "indices":[
+               3,
+               15
+            ]
+         },
+         {
+            "screen_name":"MikeKlis",
+            "name":"Mike Klis",
+            "id":43408626,
+            "id_str":"43408626",
+            "indices":[
+               53,
+               62
+            ]
+         },
+         {
+            "screen_name":"Broncos",
+            "name":"Denver Broncos",
+            "id":18734310,
+            "id_str":"18734310",
+            "indices":[
+               80,
+               88
+            ]
+         }
+      ],
+      "urls":[
+
+      ]
+   },
+   "source":"<a href=\"http://www.grouptweet.com\" rel=\"nofollow\">GroupTweet</a>",
+   "in_reply_to_status_id":null,
+   "in_reply_to_status_id_str":null,
+   "in_reply_to_user_id":null,
+   "in_reply_to_user_id_str":null,
+   "in_reply_to_screen_name":null,
+   "user":{
+      "id":19032473,
+      "id_str":"19032473",
+      "name":"9NEWS Denver",
+      "screen_name":"9NEWS",
+      "location":"Denver, Colorado",
+      "description":"The official Twitter of 9NEWS in Denver, CO. Interact with us! #BeOn9 #9WX We also retweet the #9NEWS team.",
+      "url":"http://t.co/tqpZuE2KEo",
+      "entities":{
+         "url":{
+            "urls":[
+               {
+                  "url":"http://t.co/tqpZuE2KEo",
+                  "expanded_url":"http://www.9news.com",
+                  "display_url":"9news.com",
+                  "indices":[
+                     0,
+                     22
+                  ]
+               }
+            ]
+         },
+         "description":{
+            "urls":[
+
+            ]
+         }
+      },
+      "protected":false,
+      "followers_count":447882,
+      "friends_count":952,
+      "listed_count":3502,
+      "created_at":"Thu Jan 15 18:32:46 +0000 2009",
+      "favourites_count":11478,
+      "utc_offset":null,
+      "time_zone":null,
+      "geo_enabled":true,
+      "verified":true,
+      "statuses_count":472407,
+      "lang":null,
+      "contributors_enabled":false,
+      "is_translator":false,
+      "is_translation_enabled":false,
+      "profile_background_color":"13078B",
+      "profile_background_image_url":"http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https":"https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile":false,
+      "profile_image_url":"http://pbs.twimg.com/profile_images/943583595482046464/h5ePo5gp_normal.jpg",
+      "profile_image_url_https":"https://pbs.twimg.com/profile_images/943583595482046464/h5ePo5gp_normal.jpg",
+      "profile_banner_url":"https://pbs.twimg.com/profile_banners/19032473/1596108343",
+      "profile_link_color":"821522",
+      "profile_sidebar_border_color":"FFFFFF",
+      "profile_sidebar_fill_color":"B3C2DF",
+      "profile_text_color":"333333",
+      "profile_use_background_image":false,
+      "has_extended_profile":false,
+      "default_profile":false,
+      "default_profile_image":false,
+      "following":true,
+      "follow_request_sent":false,
+      "notifications":false,
+      "translator_type":"none"
+   },
+   "geo":null,
+   "coordinates":null,
+   "place":null,
+   "contributors":null,
+   "retweeted_status":{
+      "created_at":"Tue Aug 18 01:30:00 +0000 2020",
+      "id":1295533374480822300,
+      "id_str":"1295533374480822274",
+      "text":"WATCH: In the pages of his notebook @MikeKlis explains how the @Broncos staying safe during the 2020 season is the… https://t.co/zIBcFCMuoK",
+      "truncated":true,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "symbols":[
+
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"MikeKlis",
+               "name":"Mike Klis",
+               "id":43408626,
+               "id_str":"43408626",
+               "indices":[
+                  36,
+                  45
+               ]
+            },
+            {
+               "screen_name":"Broncos",
+               "name":"Denver Broncos",
+               "id":18734310,
+               "id_str":"18734310",
+               "indices":[
+                  63,
+                  71
+               ]
+            }
+         ],
+         "urls":[
+            {
+               "url":"https://t.co/zIBcFCMuoK",
+               "expanded_url":"https://twitter.com/i/web/status/1295533374480822274",
+               "display_url":"twitter.com/i/web/status/1…",
+               "indices":[
+                  116,
+                  139
+               ]
+            }
+         ]
+      },
+      "source":"<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":52858611,
+         "id_str":"52858611",
+         "name":"9NEWS Sports Denver",
+         "screen_name":"9NEWSSports",
+         "location":"N 39°34' 0'' / W 105°10' 0''",
+         "description":"Colorado's Sports Leader and the Denver Broncos Partner Station.",
+         "url":"http://t.co/t9r5cIbPwi",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://t.co/t9r5cIbPwi",
+                     "expanded_url":"http://www.9news.com",
+                     "display_url":"9news.com",
+                     "indices":[
+                        0,
+                        22
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":14449,
+         "friends_count":770,
+         "listed_count":344,
+         "created_at":"Wed Jul 01 21:33:47 +0000 2009",
+         "favourites_count":2362,
+         "utc_offset":null,
+         "time_zone":null,
+         "geo_enabled":true,
+         "verified":true,
+         "statuses_count":62196,
+         "lang":null,
+         "contributors_enabled":false,
+         "is_translator":false,
+         "is_translation_enabled":false,
+         "profile_background_color":"C0DEED",
+         "profile_background_image_url":"http://abs.twimg.com/images/themes/theme1/bg.png",
+         "profile_background_image_url_https":"https://abs.twimg.com/images/themes/theme1/bg.png",
+         "profile_background_tile":false,
+         "profile_image_url":"http://pbs.twimg.com/profile_images/1292825452978085888/5vftqu31_normal.jpg",
+         "profile_image_url_https":"https://pbs.twimg.com/profile_images/1292825452978085888/5vftqu31_normal.jpg",
+         "profile_banner_url":"https://pbs.twimg.com/profile_banners/52858611/1582759211",
+         "profile_link_color":"1DA1F2",
+         "profile_sidebar_border_color":"C0DEED",
+         "profile_sidebar_fill_color":"DDEEF6",
+         "profile_text_color":"333333",
+         "profile_use_background_image":true,
+         "has_extended_profile":false,
+         "default_profile":true,
+         "default_profile_image":false,
+         "following":false,
+         "follow_request_sent":false,
+         "notifications":false,
+         "translator_type":"none"
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "is_quote_status":false,
+      "retweet_count":1,
+      "favorite_count":0,
+      "favorited":false,
+      "retweeted":false,
+      "possibly_sensitive":false,
+      "possibly_sensitive_appealable":false,
+      "lang":"en"
+   },
+   "is_quote_status":false,
+   "retweet_count":1,
+   "favorite_count":0,
+   "favorited":false,
+   "retweeted":false,
+   "lang":"en"
+}
