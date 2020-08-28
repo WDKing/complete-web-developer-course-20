@@ -1,0 +1,41 @@
+Challenge:
+
+For Loops
+INSTRUCTIONS: Create a for loop that will cycle an array containing the words Red, Yellow and Blue and add them to the HTML of the p tag with id of colourList, separated by a space.
+
+Initial:
+<!doctype html>
+<html>
+	<head>
+    	<title>For Loops</title>
+    </head>
+    <body>
+    	<p id="colourList"></p>
+          <script type="text/javascript">
+            
+      	</script>
+    </body>
+</html>
+
+Submission:
+<!doctype html>
+<html>
+	<head>
+    	<title>For Loops</title>
+    </head>
+    <body>
+    	<p id="colourList"></p>
+        <script type="text/javascript">
+         
+        var array = ["Red", "Yellow", "Blue"];
+        var colorList = "";
+        
+        for (var i = 0; i < array.length; i++) {
+            colorList += array[i] + " ";
+        }
+        
+        document.getElementById("colourList").innerHTML = colorList;  
+            
+      	</script>
+    </body>
+</html>
