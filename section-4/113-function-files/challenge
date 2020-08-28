@@ -1,0 +1,22 @@
+Challenge
+
+Functions
+INSTRUCTIONS: Create a function named addition that will add w, x, y and z together and give the result in a variable called 'total'.
+
+Initial:
+w = 3;
+x = 4;
+y = 5;
+z = 6;
+
+Submission:
+function addition(a, b, c, d) {
+  return a+b+c+d;   
+}
+
+w = 3;
+x = 4;
+y = 5;
+z = 6;
+
+var total = addition(w, x, y, z);
