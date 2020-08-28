@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Variables</title>
+</head>
+<body>
+	<input type="text" id="inputText" placeholder="Enter Text.">
+
+	<button id="submitChangeText">Change next.</button>
+
+	<p id="changeText">The text to change.</p>
+
+
+	<script type="text/javascript">
+		/*
+		var x = 5;
+
+		x = 20;
+
+		alert(x);
+
+		var name = "Liam";
+
+		alert(name);
+		*/
+
+		document.getElementById("submitChangeText").onclick = function() {
+			var newText = document.getElementById("inputText").value;
+			document.getElementById("changeText").innerHTML = newText;
+		}
+
+	</script>
+</body>
+</html>
