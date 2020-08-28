@@ -1,0 +1,17 @@
+#diary-textarea {
+	margin: 70px 0px -100px;
+	height: 100%;
+	width: 100%;
+}
+
+.diary-entry {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	min-width: 100%;
+	min-height: 100%;
+	height: 100%;
+	width: 100%;
+}

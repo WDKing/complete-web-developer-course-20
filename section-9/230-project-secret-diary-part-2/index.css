@@ -1,0 +1,19 @@
+.btn:focus,.btn:active {
+	outline: none;
+	box-shadow: none;
+}
+
+.contrast-text,.btn:focus,.btn:active,.btn:hover {
+	color: white;
+}
+
+#outer-container {
+	margin-top: 100px;
+	width: 100%
+}
+
+#login-form, #register-form, #error-alert {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
