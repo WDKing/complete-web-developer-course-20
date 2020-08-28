@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>jQuery UI - Accordions and Sortables</title>
+
+	<script src="jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+	<script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+	<script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	<style type="text/css"></style>
+
+</head>
+<body>
+
+	<div id="accordion">
+		<h3>First Section</h3>
+		<div>
+			<p>
+				This is the first section. 
+			</p>
+		</div>
+		<h3>Second Section</h3>
+		<div>
+			<p>
+				This is the second section.
+			</p>
+		</div>
+		<h3>Third Section</h3>
+		<div>
+			<p>
+				This is the third section. 
+			</p>
+		</div>
+		<h3>Even More Sections</h3>
+		<div>
+			<p>
+				This is the fourth section.
+			</p>
+		</div>
+		<h3>How Many Sections Are There?</h3>
+		<div>
+			<p>
+				This is the fifth section.
+				<ul id="sortable">
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+					<li>Even more Items</li>
+					<li>Final Item</li>
+				</ul>
+			</p>
+		</div>
+		<h3>Yes, Another Section</h3>
+		<div>
+			<p>
+				This is the sixth and last section. 
+			</p>
+		</div>
+	</div>
+
+	<script>
+		$(function() {
+			$("#accordion").accordion({
+				heightStyle: "content"
+			});
+			$("#sortable").sortable();
+		});
+	</script>
+
+</body>
+</html>
