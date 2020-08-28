@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 and CSS3</title>
+
+	<style type="text/css">
+		#drawCanvas {
+			border: 1px solid gray;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="drawCanvas" width="500" height="400"></canvas>
+
+	<script type="text/javascript">
+		/*
+		var drawCanvas = document.getElementById("drawCanvas");
+		var context = drawCanvas.getContext("2d");
+		context.fillStyle = "#49C900";
+		context.fillRect(0, 0, 100, 200);
+
+		context.strokeStyle = "#F42924";
+		context.lineWidth = 20;
+		context.moveTo(0, 400);
+		context.lineTo(500, 0);
+		context.moveTo(250, 0);
+		context.lineTo(500, 200);
+		context.stroke();
+		*/
+
+		var drawCanvas = document.getElementById("drawCanvas");
+		var context = drawCanvas.getContext("2d");
+
+		var gradient = context.createLinearGradient(100, 150, 300, 350);
+		gradient.addColorStop(0, "white");
+		gradient.addColorStop(1, "#00FF00");
+
+		context.fillStyle = gradient;
+		context.fillRect(150, 100, 200, 200);
+
+		context.strokeStyle = "#FF0000";
+		context.moveTo(150, 100);
+		context.lineTo(350, 300);
+		context.moveTo(150, 300);
+		context.lineTo(350, 100);
+		context.stroke();
+
+		context.beginPath();
+		context.arc(100, 100, 50, Math.PI, 3/4*2*Math.PI);
+		context.stroke();
+
+		gradient = context.createLinearGradient(200, 50, 250, 0);
+		gradient.addColorStop(0, "red");
+		gradient.addColorStop(1, "green");
+
+		context.font = "20px Arial";
+		context.fillStyle = gradient;
+		context.fillText("This is a Canvas.", 200, 50);
+
+	</script>
+</body>
+</html>
