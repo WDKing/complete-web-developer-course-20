@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>jQuery UI - Droppables</title>
+
+	<script src="jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+	<script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+	<script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	<style type="text/css">
+
+		#smaller {
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			float:left;
+		}
+
+		#larger {
+			width: 400px;
+			height: 400px;
+			background-color: blue;
+			float:left;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="larger" class="square"></div>
+	<div id="smaller" class="square"></div>
+
+	<script type="text/javascript">
+
+		$("#smaller").draggable();
+		$("#larger").droppable({
+			drop: function(event, ui) {
+				alert("Dropped");
+			}});
+		
+	</script>
+</body>
+</html>
