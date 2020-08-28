@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>jQuery - Ajax</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<p id="ajax"></p>
+
+	<script type="text/javascript">
+
+		/*
+		$.get("./jquery.text", function(data) {
+			alert(data);
+		})
+		*/
+
+		$.ajax("jquery.txt")
+			.done(function(data) {
+				//alert(data);
+				$('#ajax').html(data);
+			})
+			.fail(function() {
+				alert("Could not get data.")
+			});
+
+	</script>
+</body>
+</html>
