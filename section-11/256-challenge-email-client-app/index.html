@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="app.min.css">
+    <style>
+      @-webkit-keyframes pulse {
+        0% {
+          background-color: #CCC;
+        }
+        25% {
+          background-color: #EEE;
+        }
+        50% {
+          background-color: #CCC;
+        }
+        75% {
+          background-color: #EEE;
+        }
+        100% {
+          background-color: #CCC;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="app-page" data-page="home">
+      <div class="app-topbar blue">
+        <div class="app-title">Send an Email</div>
+      </div>
+      <div class="app-content">
+        <p class="app-section">
+          Click below to send an email
+        </p><div class="app-section">
+          <div class="app-button" data-target="sendEmail"></div>
+        </div>
+        
+        <div class="app-section">
+          <div class="app-button" data-target="sendEmail">Send to new user</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="app-page" data-page="sendEmail">
+      <div class="app-topbar">
+        <div class="app-title">Inputs</div>
+        <div class="right app-button" data-back>Done</div>
+      </div>
+
+      <div class="app-content">
+        <input class="app-input" type="search" placeholder="Search..">
+
+        <div class="app-section">
+          <input class="app-input" placeholder="Input">
+        </div>
+
+        <form class="app-section">
+          <input class="app-input" name="subject" placeholder="Subject">
+          <textarea class="app-input" name="message" placeholder="Message"></textarea>
+          <div class="app-button green app-submit">Send</div>
+        </form>
+      </div>
+    </div>
+
+    <script src="zepto.js"></script>
+    <script src="app.min.js"></script>
+
+    <script src="../dialog.js"></script>
+    <script>
+      
+
+      App.controller('home', function (page) {
+        
+      });
+
+      try {
+        App.restore();
+      } catch (err) {
+        App.load('home');
+      }
+    </script>
+  </body>
+</html>
