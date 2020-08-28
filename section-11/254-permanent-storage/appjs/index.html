@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mobile Apps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  </head>
+
+    <script src="zepto.js"></script>
+    <script src="app.min.js"></script>
+
+    <script type="text/javascript">
+      if(typeof(Storage) !== "undefined") {
+        localStorage.setItem("name", "Liam");
+        alert(localStorage.getItem("name", "Liam"));
+
+        var movies = ["Alien", "Surf Ninjas", "Serenity", "Cabin in the Woods", "Hammilton", "Passengers"];
+        localStorage.setItem("moviesILike", JSON.stringify(movies));
+        var moviesAfter = JSON.parse(localStorage.getItem("moviesILike"));
+        alert(moviesAfter[3]);
+      } else {
+        alert("Please upgrade your browser.");
+      }
+    </script>
+  </body>
+</html>
