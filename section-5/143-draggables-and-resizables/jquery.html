@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>jQuery UI - Draggables and Resizables</title>
+
+	<script src="jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+	<script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+	<script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	<style type="text/css">
+
+		#parent {
+			width: 200px;
+			height: 200px;
+			border: 1px solid black;
+		}
+		#also {
+			width: 100px;
+			height: 200px;
+			border: 1px solid black;
+			background-color: blue;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="draggable">Drag me around</div>
+	<div id="parent">
+		<span id="drag-within-parent">Drag within the parent</span>
+	</div>
+	<div id="also"></div>
+
+	<script type="text/javascript">
+
+		$("#draggable").draggable({axis:"y"});
+		$("#drag-within-parent").draggable({containment: "parent"});
+		$("#parent").resizable({
+			grid: 25,
+			alsoResize: "#also",
+			resize: function(event, ui) {
+				if($("#parent").width() > 300) {
+					alert("Greater than 300 px.");
+				}
+			}
+		});
+		$("#also").resizable();
+		
+
+	</script>
+</body>
+</html>
