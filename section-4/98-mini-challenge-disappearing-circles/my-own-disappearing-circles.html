@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript - My Own Disappearing Circles</title>
+
+
+	<style type="text/css">
+
+		.dot {
+			width: 100px;
+			height: 100px;
+			margin: 15px;
+			float: left;
+			border-radius: 50%;
+		}
+
+		#redDot {
+			background-color: red;
+		}
+
+		#blueDot {
+			background-color: blue;
+		}
+
+		#yellowDot {
+			background-color: yellow;
+		}
+
+		#greenDot {
+			background-color: green;
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<span class="dot" id="redDot"></span>
+	<span class="dot" id="blueDot"></span>
+	<span class="dot" id="yellowDot"></span>
+	<span class="dot" id="greenDot"></span>
+
+	<script type="text/javascript">
+
+		redDot = document.getElementById("redDot");
+		blueDot = document.getElementById("blueDot");
+		yellowDot = document.getElementById("yellowDot");
+		greenDot = document.getElementById("greenDot");
+
+		redDot.onclick = function() {
+			redDot.style.display = "none";
+		}
+		blueDot.onclick = function() {
+			blueDot.style.display = "none";
+		}
+		yellowDot.onclick = function() {
+			yellowDot.style.display = "none";
+		}
+		greenDot.onclick = function() {
+			greenDot.style.display = "none";
+		}
+
+	</script>
+
+</body>
+</html>
