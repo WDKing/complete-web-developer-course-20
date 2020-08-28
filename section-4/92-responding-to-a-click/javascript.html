@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+
+	<p id="text">Hello World!</p>
+
+	<button id="changeButton">The text will change!</button>
+
+	<script type="text/javascript">
+
+		document.getElementById("changeButton").onclick = function() {
+			alert("The button has been selected, but nothing has changed!");
+			document.getElementById("text").innerHTML = "Button was selected. I have changed.";
+		}
+
+	</script>
+
+</body>
+</html>
