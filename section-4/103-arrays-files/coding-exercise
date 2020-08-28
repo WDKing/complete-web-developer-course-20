@@ -1,0 +1,8 @@
+Coding Exercise
+
+Arrays
+INSTRUCTIONS: Create an array called myColours containing the colours red, blue, yellow and green in that order.
+Initial: None.
+
+Submission:
+var myColours = ["red","blue","yellow","green"];
