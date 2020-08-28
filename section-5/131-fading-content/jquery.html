@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>jQuery - Fading Content</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+	
+	<!--
+	<p id="fade-out">Greetings traveler.  Welcome to the page.  Today we will take a trip down the Rabbit hole.</p>
+	<button id="press-to-fade">Play Cheshire Cat</button>
+	<p id="fade-in">We are down the Rabbit Hole now!<p>
+	<button id="press-to-fade-in">Exit the Rabbit Hole.</button>
+
+	<script type = "text/javascript">
+		$("#fade-in").hide();
+		$("#press-to-fade-in").hide();
+
+		$("#press-to-fade").click(function(){
+			$("#fade-out").fadeOut("fast");
+			$(this).fadeOut("fast");
+			$("#fade-in").fadeIn("fast");
+			$("#press-to-fade-in").fadeIn("fast");
+		});
+		$("#press-to-fade-in").click(function() {
+			$("#fade-out").fadeIn("fast");
+			$("#press-to-fade").fadeIn("fast");
+			$("#fade-in").fadeOut("fast");
+			$(this).fadeOut("fast");
+		});
+
+	</script>
+	-->
+
+	<!--
+	<p id="par-to-toggle">I can disappear.</p>
+	<button id="toggle-the-par">Toggle the Paragraph</button>
+
+	<script type="text/javascript">
+
+		var textShown = true;
+
+		$("#toggle-the-par").click(function() {
+			if (textShown)) {
+				$("#par-to-toggle").fadeOut(function() {
+					textShown = false;
+				});
+			} else {
+				$("#par-to-toggle").fadeIn(function() {
+					textShown = true;
+				});
+			}
+		});
+
+	</script>
+    -->
+
+	<p id="par-to-toggle">I can disappear.</p>
+	<button id="toggle-the-par">Toggle the Paragraph</button>
+
+	<script type="text/javascript">
+
+		$("#toggle-the-par").click(function() {
+			if ($("#par-to-toggle").css("display") == "none") {
+				$("#par-to-toggle").fadeIn();
+			} else {
+				$("#par-to-toggle").fadeOut();
+			}
+		});
+
+	</script>
+</body>
+</html>
