@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+
+	<p id="text">Hello World!</p>
+
+	<button id="changeButton">The text will change!</button>
+
+	<p id="secondParagraph">Javascript is...</p>
+
+	<button id="secondButton">I will append text.</button>
+
+	<p id="ghostText"></p>
+
+	<button id="ghostButton">I am the Ghost Button</button>
+
+	<p id="unstyledText">This is some text.</p>
+
+	<button id="styleButton">Style the text.</button>
+
+	<p id="houdiniText">I am Houdini.</p>
+
+	<button id="houdiniButton">Watch Houdini Disappar</button>
+
+	<script type="text/javascript">
+
+		document.getElementById("changeButton").onclick = function() {
+			document.getElementById("text").innerHTML = "Button was selected. I have changed.";
+		}
+
+		document.getElementById("secondButton").onclick = function() {
+			document.getElementById("secondParagraph").innerHTML = "I have a belief that " + document.getElementById("secondParagraph").innerHTML + " Fantabulous.";
+		}
+
+		document.getElementById("ghostButton").onclick = function() {
+			document.getElementById("ghostText").innerHTML = "<b>Boo!!</b>";
+		}
+
+		document.getElementById("styleButton").onclick = function() {
+			document.getElementById("unstyledText").style.color = "Red";
+			document.getElementById("unstyledText").style.fontSize = "50px";
+		}
+
+		document.getElementById("houdiniButton").onclick = function() {
+			document.getElementById("houdiniText").style.display = "none";
+		}
+
+	</script>
+
+</body>
+</html>

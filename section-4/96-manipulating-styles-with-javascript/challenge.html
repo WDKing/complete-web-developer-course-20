@@ -1,0 +1,28 @@
+INSTRUCTIONS: Use javascript to change the size of the paragraph with the ID changeText to 50 pixels in size.
+
+Provided: 
+<!doctype html>
+<html>
+	<head>
+    	<title>Manipulating Styles With Javascript</title>
+    </head>
+    <body>
+    	<p id="changeText">This is a paragraph</p>
+        <script>
+        </script>
+    </body>
+</html>
+
+Answer:
+<!doctype html>
+<html>
+	<head>
+    	<title>Manipulating Styles With Javascript</title>
+    </head>
+    <body>
+    	<p id="changeText">This is a paragraph</p>
+        <script>
+            document.getElementById("changeText").style.fontSize = "50px";
+        </script>
+    </body>
+</html>
