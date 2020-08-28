@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 and CSS3</title>
+
+	<style type="text/css">
+		#multi-column {
+			-webkit-column-count: 3;
+			-moz-column-count: 3;
+			column-count: 3;
+
+			-webkit-column-gap: 40px;
+			-moz-column-count: 40px;
+			column-gap: 40px;
+
+			-webkit-rule-style: solid;
+			-moz-rule-style: solid;
+			column-rule-style: solid;
+
+			-webkit-column-rule-width: 1px;
+			-moz-column-rule-width: 1px;
+			column-rule-width: 1px;
+
+			-webkit-column-rule-color: gray;
+			-moz-column-rule-color: gray;
+			column-rule-color: gray;
+		}
+
+		h2 {
+			-webkit-column-span: all;
+			column-span: all;
+		}
+
+		header {
+			width: 100%;
+			height: 50px;
+			background-color: gray;
+		}
+
+		body {
+			margin: 0;
+		}
+
+		html, body {
+			height: 100%;
+		}
+
+		#container {
+			width: 100%;
+			background-color: yellow;
+			height: -webkit-calc(100% - 50px);
+			height: calc(100% - 50px);
+			position: absolute;
+
+		}
+
+		.flexbox-container {
+			display: flex;
+			display: -webkit-flex;
+			width: 100%;
+			height: 500px;
+			background-color: aqua;
+			flex-wrap: wrap;
+			-webkit-flex-wrap: wrap;
+			/* wrap, wrap reverse, no wrap
+			/*-webkit-flex-direction: row-reverse;
+			flex-direction: row-reverse;
+			/* column or column-reverse */
+		}
+
+		.flexbox-item {
+			background-color: bisque;
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			box-sizing: border-box;
+		}
+
+	</style>
+</head>
+<body>
+	<header></header>
+
+	<div id="container">
+		<div class="flexbox-container">
+			<div class="flexbox-item">Item 1</div>
+			<div class="flexbox-item" style="border: 5px solid gray; padding: 10px">Item 2</div>
+			<div class="flexbox-item">Item 3</div>
+			<div class="flexbox-item">Item 4</div>
+			<div class="flexbox-item">Item 5</div>
+			<div class="flexbox-item">Item 6</div>
+			<div class="flexbox-item">Item 7</div>
+			<div class="flexbox-item">Item 8</div>
+			<div class="flexbox-item">Item 9</div>
+		</div>
+
+	</div>
+
+	<div id="multi-column">
+		<h2>News For Nerds</h2>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget nibh faucibus, iaculis risus ut, viverra augue. Etiam vel tortor blandit ligula tempus finibus. Curabitur a tortor placerat, eleifend elit eget, volutpat turpis. Mauris pharetra finibus metus, facilisis tincidunt odio pharetra sit amet. Praesent sed sem sed mauris ornare aliquam a placerat odio. Mauris eu aliquet velit. Mauris dictum dolor lorem, in fermentum dui lacinia id. In aliquam, velit vel tempus aliquam, erat diam consequat augue, nec posuere risus nunc a libero.<br><br>
+
+		Suspendisse vulputate mauris vel dui semper bibendum. Sed mollis felis euismod ullamcorper ornare. Vestibulum ullamcorper vitae arcu vel mattis. Proin dictum cursus sem. Cras venenatis tellus erat. Cras dignissim sapien nec gravida porttitor. Praesent condimentum quam vel magna pellentesque sollicitudin. Sed venenatis iaculis nisi, vitae sagittis mauris iaculis sed. Curabitur vehicula eget sem faucibus egestas. Fusce ut justo lorem. Aliquam erat volutpat. Quisque sit amet lectus bibendum, mattis metus vitae, feugiat lorem. Quisque scelerisque pharetra elit, a elementum lacus auctor sed. Donec suscipit suscipit metus ac molestie.<br><br>
+
+		Ut aliquam, sapien vitae rhoncus finibus, libero velit dignissim dui, in dignissim elit justo quis sem. Vivamus rutrum urna quis dolor accumsan, id congue tortor venenatis. Donec fringilla nibh justo, quis porttitor sapien tempor nec. Sed at aliquet mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sapien vel ipsum mattis tincidunt. Nullam consectetur tellus ac nulla ornare, non accumsan erat pellentesque. Duis ipsum purus, varius non dapibus sed, lobortis et justo. Phasellus quis pretium velit. Nulla consectetur ex eget venenatis placerat. Duis vel elit venenatis, sagittis elit sed, fermentum ante. Morbi hendrerit non ipsum quis facilisis. Sed quis quam ac ligula volutpat volutpat.
+	</div>
+
+
+</body>
+</html>
