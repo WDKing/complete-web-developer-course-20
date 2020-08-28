@@ -1,0 +1,39 @@
+Challenge: 
+
+While Loops
+INSTRUCTIONS: Create a while loop that will add 'The Count is 0The Count is 1The Count is 2The Count is 3The Count is 4The Count is 5' to the contents of the paragraph tag.
+
+Initial:
+<!doctype html>
+<html>
+	<head>
+    	<title>While Loops</title>
+    </head>
+    <body>
+    	<p id="count"></p>
+          <script type="text/javascript">
+            
+      	</script>
+    </body>
+</html>
+
+Submission:
+<!doctype html>
+<html>
+	<head>
+    	<title>While Loops</title>
+    </head>
+    <body>
+    	<p id="count"></p>
+          <script type="text/javascript">
+            var i = 0;
+            var content = "";
+            while(i < 6) {
+                content += "The Count is " + i;
+                i++;
+            }
+            
+            document.getElementById("count").innerHTML = content;
+      	</script>
+    </body>
+</html>
