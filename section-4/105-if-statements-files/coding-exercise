@@ -1,0 +1,24 @@
+Coding Exercise
+
+If Statements
+INSTRUCTIONS: Update the value of x so the if statement gives the output x is less than five.
+
+Initial:
+var x = 5;
+var y = "More or less than five";
+
+if (x < 5) {
+	y = "x is less than five";
+} else {
+	y = "x is more than five";
+}
+
+Submission: 
+var x = -5;
+var y = "More or less than five";
+
+if (x < 5) {
+	y = "x is less than five";
+} else {
+	y = "x is more than five";
+}
