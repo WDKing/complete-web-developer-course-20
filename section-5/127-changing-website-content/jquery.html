@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery - Changing Website Content</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<style type="text/css">
+
+		#circle {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			background-color: green;
+			margin: 5px;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	
+	<div id="circle"></div>
+
+	<!--
+	<p>This is not some text.</p>
+
+	<script type="text/javascript">
+
+		$("#circle").click(function() {
+			$("p").html("This is still not any text.");
+		    alert($("p").html());
+		})
+		$("p").hover(function() {
+			$("p").html("You won't find any text hiding there.");
+		})
+
+	</script>
+	-->
+
+	<iframe src="http://www.codestars.com"></iframe>
+
+	<script type = "text/javascript">
+
+		$("#circle").click(function() {
+			$("iframe").attr("src","http://www.ecowebhosting.co.uk");
+		})
+
+	</script>
+</body>
+</html>
