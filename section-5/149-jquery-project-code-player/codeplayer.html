@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>jQuery Project - Codeplayer</title>
+
+	<script src="jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+	<script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+	<script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	<style type="text/css">
+		html, body {
+			height:100%;
+			width: 100%;
+		}
+
+		.header {
+			font-size: 24px;
+
+		}
+
+		.header-label, .button-container {
+			display: inline-block;
+		}
+
+		.button-container {
+			margin-left: 30px;
+		}
+
+		.header::after {
+			clear: both;
+		}
+
+		.editor-container {
+			display: flex;
+			flex-wrap: nowrap;
+			height: 100%;
+		}
+
+		.editor-container::after {
+			clear: both;
+		}
+
+		.editor-container > div {
+			background-color: #f1f1f1;
+ 			width: 25%;
+ 			height: 100%;
+ 			border: 1px solid black;
+  			text-align: center;
+  			font-size: 24px;
+		}
+
+		#html-column, #css-column, #javascript-column, #output-column {
+			flex-grow: 1;
+		}
+ 
+		.editor-box {
+			resize: none;
+			width: 90%;
+			height: 94%;
+		}
+
+		.display-box {
+			width: 90%;
+			height: 94%;
+			margin: 0 auto;
+			text-align: left
+		}
+
+		#combined-output {
+			border: 1px solid black;
+			background-color: white;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="header">
+		<p class="header-label">Code Player</p>
+		<div class="button-container">
+			<button id="html-button">HTML</button>
+			<button id="css-button">CSS</button>
+			<button id="javascript-button">JavaScript</button>
+			<button id="output-button">Output</button>
+		</div>
+	</div>
+
+	<div class="editor-container">
+		<div class="editor-column" id="html-column">
+		    <div class="editor-header">HTML</div>
+		    <textarea class="editor-box" id="html-entry"></textarea>
+		</div>
+		<div class="editor-column" id="css-column">
+		    <div class="editor-header">CSS</div>
+		    <textarea class="editor-box" id="css-entry"></textarea>
+		</div>
+		<div class="editor-column" id="javascript-column">
+		    <div class="editor-header">Javascript</div>
+		    <textarea class="editor-box" id="javascript-entry"></textarea>
+		</div>
+		<div class="editor-column" id="output-column">
+		    <div class="editor-header">Output</div>
+		    <div class="display-box" id="combined-output"></input>
+		</div>
+	</div>
+
+
+	<script>
+
+		// Variables if boxes are shown or not
+		var htmlShown = true;
+		var cssShown = true;
+		var javascriptShown = true;
+		var outputShown = true;
+
+		// Updates the last column with the information from all previous columns when called
+		function displayCombined(html, css, javascript) {
+			$("#combined-output").html( ""
+				+"<html>"
+				+"<head>"
+				+"  <link rel=\"stylesheet\" href=\"jquery-ui-1.12.1\/jquery-ui.min.css\"\>"
+				+"  <style type=\"text\/css\"\>"
+				+"    " + css
+				+"  </style>"
+				+"</head>"
+				+"<body>"
+				+"  " + html
+				+"  <script>"
+				+"  " + javascript
+			    +"  <\/script>"
+				+"</body>"
+				+"</html>" 
+				)
+		};
+
+		// Call displayCombined() when any entry box is changed.
+		$("#html-entry").change(function() {
+			displayCombined($("#html-entry").val(), 
+							$("#css-entry").val(), 
+							$("#javascript-entry").val())
+		});
+		$("#css-entry").change(function() {
+			displayCombined($("#html-entry").val(), 
+							$("#css-entry").val(), 
+							$("#javascript-entry").val())
+		});
+		$("#javascript-entry").change(function() {
+			displayCombined($("#html-entry").val(), 
+							$("#css-entry").val(), 
+							$("#javascript-entry").val())
+		});
+
+		// Showing and hiding different columns
+		$("#html-button").click(function() {
+			if(htmlShown){
+				$("#html-column").hide();
+				htmlShown = false;
+			} else {
+				$("#html-column").show();
+				htmlShown = true;
+			}
+		})
+		$("#css-button").click(function() {
+			if(cssShown){
+				$("#css-column").hide();
+				cssShown = false;
+			} else {
+				$("#css-column").show();
+				cssShown = true;
+			}
+		})
+		$("#javascript-button").click(function() {
+			if(javascriptShown){
+				$("#javascript-column").hide();
+				javascriptShown = false;
+			} else {
+				$("#javascript-column").show();
+				javascriptShown = true;
+			}
+		})
+		$("#output-button").click(function() {
+			if(outputShown){
+				$("#output-column").hide();
+				outputShown = false;
+			} else {
+				$("#output-column").show();
+				outputShown = true;
+			}
+		})
+	</script>
+
+</body>
+</html> 
